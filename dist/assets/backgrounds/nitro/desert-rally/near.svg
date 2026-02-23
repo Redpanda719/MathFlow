@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 320'>
+<rect y='245' width='1280' height='75' fill='#6b4a2f'/>
+<rect y='248' width='1280' height='4' fill='#ffd28a'/>
+<rect y='286' width='1280' height='5' fill='#fff1c1' opacity='0.5'/>
+<g fill='#f5623d'><rect x='55' y='255' width='44' height='48'/><rect x='315' y='255' width='44' height='48'/><rect x='575' y='255' width='44' height='48'/><rect x='835' y='255' width='44' height='48'/><rect x='1095' y='255' width='44' height='48'/></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 320'>
+<rect y='175' width='1280' height='85' fill='#b77b43'/>
+<rect y='185' width='1280' height='6' fill='#eab66b'/>
+<g fill='#d99854'>
+<rect x='60' y='195' width='45' height='55'/><rect x='220' y='195' width='45' height='55'/><rect x='380' y='195' width='45' height='55'/><rect x='540' y='195' width='45' height='55'/><rect x='700' y='195' width='45' height='55'/><rect x='860' y='195' width='45' height='55'/><rect x='1020' y='195' width='45' height='55'/><rect x='1180' y='195' width='45' height='55'/>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 320'>
+<rect y='170' width='1280' height='90' fill='#2b2556'/>
+<rect y='183' width='1280' height='4' fill='#4af8ff'/>
+<rect y='190' width='1280' height='2' fill='#ff4ff2'/>
+<g fill='#8cf9ff' opacity='0.8'>
+<rect x='40' y='203' width='40' height='30'/><rect x='100' y='210' width='30' height='24'/><rect x='160' y='203' width='40' height='30'/><rect x='220' y='210' width='30' height='24'/><rect x='280' y='203' width='40' height='30'/><rect x='340' y='210' width='30' height='24'/><rect x='400' y='203' width='40' height='30'/><rect x='460' y='210' width='30' height='24'/><rect x='520' y='203' width='40' height='30'/><rect x='580' y='210' width='30' height='24'/><rect x='640' y='203' width='40' height='30'/><rect x='700' y='210' width='30' height='24'/><rect x='760' y='203' width='40' height='30'/><rect x='820' y='210' width='30' height='24'/><rect x='880' y='203' width='40' height='30'/><rect x='940' y='210' width='30' height='24'/><rect x='1000' y='203' width='40' height='30'/><rect x='1060' y='210' width='30' height='24'/><rect x='1120' y='203' width='40' height='30'/><rect x='1180' y='210' width='30' height='24'/>
+</g>
+</svg>
