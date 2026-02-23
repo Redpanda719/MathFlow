@@ -1,0 +1,86 @@
+{
+  "name": "mathflow-multiplayer",
+  "version": "1.0.0",
+  "description": "Premium multiplication game with LAN multiplayer",
+  "main": "dist-electron/main/main.js",
+  "type": "module",
+  "scripts": {
+    "predev": "npm run build:electron",
+    "dev": "concurrently -k \"vite --strictPort --port 5173\" \"wait-on tcp:5173 && cross-env ELECTRON_RUN_AS_NODE= electron .\"",
+    "build": "npm run build:renderer && npm run build:electron",
+    "build:renderer": "vite build",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "dist:mac": "npm run build && electron-builder --mac dmg",
+    "dist:win": "npm run build && electron-builder --win nsis portable",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "education",
+    "multiplication",
+    "electron",
+    "react",
+    "typescript"
+  ],
+  "author": "Redpanda719",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "pixi.js": "^8.16.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.3.1",
+    "ws": "^8.18.1",
+    "zustand": "^4.5.6"
+  },
+  "build": {
+    "appId": "com.mathflow.app",
+    "productName": "MathFlow",
+    "copyright": "Copyright © 2026 Redpanda719",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**",
+      "dist-electron/**",
+      "package.json"
+    ],
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "build/icon.icns",
+      "category": "public.app-category.education"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "dmg": {
+      "title": "MathFlow Installer"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^22.13.10",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/ws": "^8.5.14",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^35.0.0",
+    "electron-builder": "^26.8.1",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.8",
+    "wait-on": "^8.0.3"
+  }
+}
