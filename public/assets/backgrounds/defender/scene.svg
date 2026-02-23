@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 320'>
+<defs><linearGradient id='sky' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#243b67'/><stop offset='1' stop-color='#4b7ab8'/></linearGradient></defs>
+<rect width='1280' height='320' fill='url(#sky)'/>
+<rect y='220' width='1280' height='100' fill='#32522d'/>
+<rect y='236' width='1280' height='12' fill='#4f7b44'/>
+<rect x='930' y='120' width='320' height='180' fill='#778197'/>
+<rect x='960' y='90' width='260' height='35' fill='#6a7386'/>
+<g fill='#ffd76f'><rect x='1020' y='145' width='40' height='40'/><rect x='1090' y='145' width='40' height='40'/><rect x='1160' y='145' width='40' height='40'/></g>
+</svg>
