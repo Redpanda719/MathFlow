@@ -1,0 +1,23 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.mathflow.app
+productName: MathFlow
+copyright: Copyright © 2026 Redpanda719
+files:
+  - filter:
+      - dist/**
+      - dist-electron/**
+      - package.json
+mac:
+  target:
+    - dmg
+  icon: build/icon.icns
+  category: public.app-category.education
+win:
+  target:
+    - nsis
+    - portable
+dmg:
+  title: MathFlow Installer
+electronVersion: 35.7.5
